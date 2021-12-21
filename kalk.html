@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="kalk.css">
+</head>
+<body>
+    <section>
+    <div>
+        <h1>Расчёт ВВП</h1>
+        <p>ВВП = Z + R +K + P + A + Nб, где</p>
+        <p>Z – вознаграждение за труд наемных работников, включая отчисления на социальные нужды;<br> 
+           R – доходы, получаемые собственниками земли, зданий и сооружений;<br>  
+           К – процентный доход, получаемый фирмами и домашними хозяйствами за предоставленный кредит;<br>
+           A - амортизация;<br>
+           P - прибыль корпораций;<br>
+           Nб - косвенные налоги.<br>
+        </p>
+    </div>
+
+    <div>
+        <p class="input">Z: <input type="text" id="Z"></p>
+        <p class="input">R<input type="text" id="R"></p>
+        <p class="input">K: <input type="text" id="K"></p>
+        <p class="input">A: <input type="text" id="A"></p>
+        <p class="input">P: <input type="text" id="P"></p>
+        <p class="input">Nб: <input type="text" id="Nб"></p>
+    </div>
+
+    <div>
+        <button id="send">Вычислить</button>
+        <h2>ВВП:</h2>
+        <p id="res"></p>
+    </div>
+    <script src = "kalk.js"></script>
+    </section>
+</body>
+</html>
